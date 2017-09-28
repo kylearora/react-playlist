@@ -30,7 +30,7 @@ class PlayList extends Component {
   render() {
     return (
       <div>
-        <button className="updateButton" type="sumit" onClick={this.fetchData}>Update Results</button>
+        <button className="updateButton" type="submit" onClick={this.fetchData}>Update Results</button>
         <PlayListItem songs={this.state.songs} />
       </div>
     )
